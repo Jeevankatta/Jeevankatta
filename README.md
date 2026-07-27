@@ -2,7 +2,7 @@
 
 **DevOps & Cloud Engineer — Banking & Enterprise Platforms**
 
-Software Engineer / Application Analyst at Cognizant, supporting **Truist Bank** on DevOps and cloud engineering. I work at the intersection of infrastructure reliability and AI-assisted delivery — piloting tools like GitHub Copilot and Amazon Q inside a regulated banking environment, then proving their value with working systems rather than slide decks.
+Software Engineer at Cognizant, supporting **Truist Bank** on DevOps and cloud engineering. I work at the intersection of infrastructure reliability and AI-assisted delivery — piloting tools like GitHub Copilot and Amazon Q inside a regulated banking environment, then proving their value with working systems rather than slide decks.
 
 ### 🔗 [View my full portfolio site →](https://jeevankatta.github.io/Jeevankatta/)
 
