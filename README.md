@@ -28,6 +28,19 @@ Software Engineer at Cognizant, supporting **Truist Bank** on DevOps and cloud e
 
 ---
 
+### 💼 Experience
+
+**Software Engineer — DevOps / Cloud Engineer**
+Cognizant · Dec 2023 – Present · Hyderabad, India (Truist Bank engagement)
+
+- Built and ran CI/CD pipelines (Jenkins, GitHub Actions) for enterprise banking applications, from build through production deployment.
+- Managed AWS infrastructure (EC2, VPC) and Kubernetes workloads, backed by Terraform IaC for repeatable provisioning.
+- Operated ETL/batch pipeline jobs on Autosys/CA Workload Automation for a banking client's enterprise data warehouse, using Oracle SQL for data validation.
+- Monitored production health with Dynatrace, AWS CloudWatch, and Splunk; resolved incidents via ServiceNow, with CyberArk-managed privileged access.
+- Piloted GitHub Copilot and Amazon Q for AI-assisted scripting and automation inside a regulated banking environment.
+
+---
+
 ### 🚀 Projects
 
 **Banking Platform — AI-Assisted Development Pilot**
@@ -49,6 +62,14 @@ Wrote shell scripts that catch conditions leading to extract/load failures in pr
 **Oracle → AWS Data Migration**
 Migrated the full estate of Oracle SQL tables to AWS as part of the platform's cloud transition.
 `Oracle SQL` `AWS` `Data Migration`
+
+**DevSecOps CI/CD Pipeline with Automated Security Scanning & Incident Response**
+Built a multi-stage CI/CD pipeline with mandatory security gates (SonarQube SAST, Trivy container scanning, OWASP Dependency Check) that blocks deployment on critical vulnerabilities, plus unified Dynatrace/Prometheus/Grafana observability dashboards.
+`DevSecOps` `CI/CD` `SonarQube` `Trivy` `Splunk` `Grafana`
+
+**AWS Infrastructure Automation & CI/CD Pipeline with EKS and ArgoCD GitOps**
+Designed a production-grade cloud-native platform on AWS: EKS cluster provisioned via Terraform modules, with GitHub Actions → ArgoCD GitOps delivery and automated rollback on health-check failure.
+`AWS` `EKS` `Terraform` `ArgoCD` `GitHub Actions` `Kubernetes`
 
 ---
 
