@@ -63,13 +63,15 @@ Wrote shell scripts that catch conditions leading to extract/load failures in pr
 Migrated the full estate of Oracle SQL tables to AWS as part of the platform's cloud transition.
 `Oracle SQL` `AWS` `Data Migration`
 
-**DevSecOps CI/CD Pipeline with Automated Security Scanning & Incident Response**
-Built a multi-stage CI/CD pipeline with mandatory security gates (SonarQube SAST, Trivy container scanning, OWASP Dependency Check) that blocks deployment on critical vulnerabilities, plus unified Dynatrace/Prometheus/Grafana observability dashboards.
-`DevSecOps` `CI/CD` `SonarQube` `Trivy` `Splunk` `Grafana`
+**[Kubernetes GitOps Platform — Terraform, Helm, ArgoCD](https://github.com/Jeevankatta/k8s-gitops-platform)**
+- Provisioned a 3-node Kubernetes cluster and 5 platform add-ons using modular Terraform with `for_each` modules and remote state locking; authored a Helm chart with probes, HPA, PodDisruptionBudget and least-privilege RBAC for zero-downtime rolling updates.
+- Implemented pull-based GitOps with ArgoCD and canary releases via Argo Rollouts; deployed Prometheus, Grafana and Alertmanager with 4 PromQL alert rules, and enforced 3 Kyverno admission policies.
+`Terraform` `Kubernetes` `Helm` `ArgoCD` `Argo Rollouts` `Prometheus` `Grafana` `Kyverno`
 
-**AWS Infrastructure Automation & CI/CD Pipeline with EKS and ArgoCD GitOps**
-Designed a production-grade cloud-native platform on AWS: EKS cluster provisioned via Terraform modules, with GitHub Actions → ArgoCD GitOps delivery and automated rollback on health-check failure.
-`AWS` `EKS` `Terraform` `ArgoCD` `GitHub Actions` `Kubernetes`
+**[DevSecOps CI/CD Pipeline — GitHub Actions, Trivy, SonarCloud](https://github.com/Jeevankatta/devsecops-pipeline)**
+- Designed a 7-job GitHub Actions pipeline with 4 build-failing security gates (SonarCloud SAST, OWASP Dependency Check, Trivy image scanning, gitleaks) and an ephemeral Kubernetes cluster in CI for end-to-end deployment testing.
+- Reduced container image size ~60% with multi-stage builds; hardened runtime with a non-root user and read-only filesystem, and enforced immutable Git SHA tags with OIDC-based short-lived cloud credentials.
+`GitHub Actions` `Trivy` `SonarCloud` `OWASP Dependency Check` `gitleaks` `Docker` `Kubernetes`
 
 ---
 
