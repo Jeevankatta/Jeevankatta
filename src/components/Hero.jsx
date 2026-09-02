@@ -1,29 +1,38 @@
-import { motion } from 'framer-motion'
-import { PROFILE, HERO_DETAIL } from '../data.js'
+import { PROFILE, HIGHLIGHTS } from '../data.js'
+import Reveal from './Reveal.jsx'
 
-export default function Hero({ onInfo }) {
+export default function Hero() {
   return (
-    <section className="hero">
-      <div className="hero-bg" />
-      <div className="hero-grid" />
-      <div className="hero-fade" />
-      <motion.div className="hero-in"
-        initial={{ opacity: 0, y: 22 }} animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: .6, ease: [.2, .7, .3, 1] }}>
-        <span className="avail"><i className="dot" />Open to DevOps &amp; Cloud roles</span>
+    <div className="wrap hero" id="top">
+      <Reveal>
+        <span className="avail"><i className="dot" /> Open to DevOps &amp; Cloud roles</span>
         <h1>{PROFILE.name}</h1>
         <p className="role">{PROFILE.role}</p>
-        <div className="metarow">
-          <span>{PROFILE.years}</span>
+        <p className="meta">
+          <span>{PROFILE.years} experience</span>
+          <span>·</span>
           <span>{PROFILE.location}</span>
-          {PROFILE.tags.map(t => <span className="tag" key={t}>{t}</span>)}
-        </div>
+          <span>·</span>
+          <span>Onsite or remote</span>
+        </p>
         <p className="blurb">{PROFILE.blurb}</p>
-        <div className="hero-btns">
-          <a className="btn btn-white" href={PROFILE.resume} download>▶ Download resume</a>
-          <button className="btn btn-grey" onClick={() => onInfo(HERO_DETAIL)}>ⓘ More info</button>
+        <div className="actions">
+          <a className="btn btn-primary" href={PROFILE.resume} download>Download resume</a>
+          <a className="btn" href={PROFILE.github} target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a className="btn" href={PROFILE.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
-      </motion.div>
-    </section>
+      </Reveal>
+
+      <Reveal delay={0.08}>
+        <div className="highlights">
+          {HIGHLIGHTS.map(h => (
+            <div key={h.l}>
+              <span className="n">{h.n}</span>
+              <span className="l">{h.l}</span>
+            </div>
+          ))}
+        </div>
+      </Reveal>
+    </div>
   )
 }

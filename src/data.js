@@ -77,19 +77,20 @@ export const ROWS = [
       },
       {
         title: "This Portfolio",
-        sub: "React · Vite · GitHub Actions",
+        sub: "React · Three.js · Vite",
         glyph: "\u25B6",
         palette: "violet",
         badge: "Live repo",
         year: "2026",
         role: "Solo build",
-        stack: "React 19, Vite, Framer Motion, GitHub Actions, GitHub Pages",
+        stack: "React 19, Three.js, Vite, GitHub Actions, GitHub Pages",
         link: "https://github.com/Jeevankatta",
-        desc: "The site you are reading. Built with React and Vite, animated with Framer Motion, and deployed by a GitHub Actions workflow on every push to main — because a DevOps portfolio that gets deployed by hand would be a bad look.",
+        desc: "The site you are reading — a WebGL control plane rather than a page, with each section living on a worker node you open. Three.js is code-split so the HUD paints before the scene downloads, every node is a real focusable button rather than a raycast hit test, and there is a full no-WebGL fallback. Deployed by a GitHub Actions workflow on every push to main, because a DevOps portfolio that gets deployed by hand would be a bad look.",
         points: [
           "Automated build and deploy on push to main",
           "No client-side data collection, no tracking scripts",
-          "Fully keyboard navigable, respects reduced-motion",
+          "Three.js code-split — 69kB gzipped shell, scene loads after",
+          "Keyboard navigable end to end; falls back to a plain document without WebGL",
         ],
       },
     ],
@@ -306,5 +307,60 @@ export const ROWS = [
         desc: "Graduated in Electronics and Communication Engineering, then moved straight into cloud and DevOps work — the hardware background still helps when reasoning about what is actually happening under an abstraction.",
       },
     ],
+  },
+];
+
+
+/* ---------------------------------------------------------------
+   HIGHLIGHTS — the strip under the hero.
+   Every number here is countable from the content below it. Swap in
+   harder scale numbers when you have them (cluster count, deploy
+   frequency, ticket volume, environment size) — hiring managers in
+   infra filter on scale before anything else.
+----------------------------------------------------------------*/
+export const HIGHLIGHTS = [
+  { n: "2.6 yrs", l: "Production DevOps for a US banking client" },
+  { n: "5",       l: "Systems shipped and run in production" },
+  { n: "3",       l: "Public repos you can open and read" },
+  { n: "24×7",    l: "On-call rotation for banking workloads" },
+];
+
+/* ---------------------------------------------------------------
+   PIPELINE — the delivery path drawn at the top of the page.
+   These are the tools actually used in the GitOps and DevSecOps
+   repos, not a generic stack diagram.
+----------------------------------------------------------------*/
+export const PIPELINE = [
+  { step: "01", name: "Commit",  tools: ["git", "gitleaks"] },
+  { step: "02", name: "Build",   tools: ["Maven", "Docker"] },
+  { step: "03", name: "Scan",    tools: ["SonarCloud", "OWASP DC", "Trivy"] },
+  { step: "04", name: "Deliver", tools: ["Helm", "ArgoCD", "Argo Rollouts"] },
+  { step: "05", name: "Observe", tools: ["Prometheus", "Grafana", "Alertmanager"] },
+];
+
+/* ---------------------------------------------------------------
+   DOING — the "What I'm Doing" cards on the About screen.
+   Four areas of practice, not a job list.
+----------------------------------------------------------------*/
+export const DOING = [
+  {
+    tag: "security",
+    title: "DevSecOps",
+    desc: "Pipelines where security is a gate, not a review step — secret detection, dependency and image scanning, and quality bars that stop a bad commit before it reaches a registry.",
+  },
+  {
+    tag: "cloud",
+    title: "Cloud Engineering",
+    desc: "AWS in a regulated banking context: networking, compute, event-driven messaging, IAM, and the remote Terraform state and security posture that come with it.",
+  },
+  {
+    tag: "reliability",
+    title: "Reliability & On-call",
+    desc: "Monitoring and alerting across Dynatrace, Splunk and CloudWatch, plus the on-call experience of learning which alerts matter at 3am and which ones just wake people up.",
+  },
+  {
+    tag: "automation",
+    title: "Platform Automation",
+    desc: "Modular Terraform, Helm packaging, admission policy and pull-based GitOps delivery — building the platform layer rather than inheriting one.",
   },
 ];
