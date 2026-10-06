@@ -1,14 +1,58 @@
-# Hi, I'm Jeevan Katta 👋
+<a href="https://jeevankatta.github.io/Jeevankatta/"><img src="assets/profile-banner.svg" alt="Jeevan Katta, DevOps and Cloud Engineer. I build pipelines that ship safely and keep production calm." width="100%"></a>
 
-**DevOps & Cloud Engineer — Banking & Enterprise Platforms**
+<p align="center">
+  <a href="https://jeevankatta.github.io/Jeevankatta/"><img src="https://img.shields.io/badge/Portfolio-jeevankatta.github.io-2ee6a6?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=0b1118" alt="Portfolio"></a>
+  <a href="https://linkedin.com/in/jeevan-katta-7212b0220"><img src="https://img.shields.io/badge/LinkedIn-jeevan--katta-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0b1118" alt="LinkedIn"></a>
+  <a href="mailto:jeevankatta17@gmail.com"><img src="https://img.shields.io/badge/Email-jeevankatta17%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0b1118" alt="Email"></a>
+  <a href="https://jeevankatta.github.io/Jeevankatta/Katta_Jeevan_Resume.pdf"><img src="https://img.shields.io/badge/Resume-PDF-4cc9f0?style=for-the-badge&logo=files&logoColor=white&labelColor=0b1118" alt="Resume"></a>
+</p>
 
-Software Engineer at Cognizant, supporting **Truist Bank** on DevOps and cloud engineering. I work at the intersection of infrastructure reliability and AI-assisted delivery — piloting tools like GitHub Copilot and Amazon Q inside a regulated banking environment, then proving their value with working systems rather than slide decks.
+## 👋 About me
 
-### 🔗 [View my full portfolio site →](https://jeevankatta.github.io/Jeevankatta/)
+DevOps and Cloud Engineer with **2.6 years running production workloads for a US banking client** at Cognizant: CI/CD pipelines, AWS, Kubernetes, Terraform, monitoring and on-call. I also led the pilot that got GitHub Copilot and Amazon Q approved inside a regulated bank, by building a working system instead of a slide deck.
 
----
+**Now:** building Kubernetes platforms from scratch, preparing for the **CKA**, and open to **DevOps, Cloud and Platform roles** in India or remote.
 
-### 🛠️ Core Stack
+```yaml
+name: Jeevan Katta
+role: DevOps & Cloud Engineer
+experience: 2.6 years · production banking workloads
+location: Hyderabad, India · onsite or remote
+certs: [AWS Certified Cloud Practitioner, CKA (in progress)]
+status: open_to_work ✅
+```
+
+## 🚀 Open-source projects
+
+| Project | What it shows |
+|---|---|
+| **[☸️ Kubernetes GitOps Platform](https://github.com/Jeevankatta/k8s-gitops-platform)**<br>`Terraform` `Helm` `ArgoCD` `Argo Rollouts` `Kyverno` `Prometheus` | 3-node cluster and 5 add-ons from modular Terraform with remote state locking. Helm chart with probes, HPA, PDB and least-privilege RBAC. Pull-based GitOps with ArgoCD, canary releases, 4 PromQL alert rules and 3 Kyverno policies. |
+| **[🛡️ DevSecOps CI/CD Pipeline](https://github.com/Jeevankatta/devsecops-pipeline)**<br>`GitHub Actions` `Trivy` `SonarCloud` `OWASP DC` `gitleaks` | 7-job pipeline with 4 build-failing security gates and an ephemeral Kubernetes cluster for end-to-end tests. Image size cut ~60% with multi-stage builds, non-root read-only runtime, OIDC short-lived credentials. |
+| **[🌐 This portfolio](https://jeevankatta.github.io/Jeevankatta/)**<br>`React` `Vite` `GitHub Actions` | Live pipeline console and an interactive terminal. Built and deployed by GitHub Actions on every push. |
+
+## 💼 Experience
+
+**Software Engineer, DevOps & Cloud** · Cognizant · Dec 2023 – Jun 2026 · Hyderabad
+<sub>US banking client</sub>
+
+- Built and ran CI/CD pipelines (Jenkins, GitHub Actions) for enterprise banking applications, from build to production deployment.
+- Managed AWS infrastructure (EC2, VPC) and Kubernetes workloads, provisioned with Terraform.
+- Operated ETL and batch jobs on Autosys / CA Workload Automation for the client's data warehouse, validating data with Oracle SQL.
+- Monitored production with Dynatrace, CloudWatch and Splunk; resolved incidents through ServiceNow with CyberArk-managed privileged access.
+
+<details>
+<summary><b>Production work highlights</b> (click to expand)</summary>
+<br>
+
+- **AI Incident Playbook:** trained on historical incident data; on a new issue it produces SOP-style troubleshooting steps and routes the ticket to the owning team.
+- **GenAI pilot:** built a Java Spring Boot bank management system as the live proof that won approval for GitHub Copilot and Amazon Q.
+- **Java 8 → 17 migration:** modernised a legacy codebase, using AI assistants for deprecated APIs, syntax and dependency upgrades.
+- **ETL failure guardrails:** shell scripts that catch extract/load failure conditions before they cause an outage.
+- **Oracle → AWS migration:** moved the full Oracle SQL table estate to AWS.
+
+</details>
+
+## 🛠️ Tech stack
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=FF9900)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
@@ -26,64 +70,11 @@ Software Engineer at Cognizant, supporting **Truist Bank** on DevOps and cloud e
 ![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white)
 ![Amazon Q](https://img.shields.io/badge/Amazon_Q-232F3E?style=flat-square&logo=amazonaws&logoColor=FF9900)
 
----
+## 📜 Certifications
 
-### 💼 Experience
-
-**Software Engineer — DevOps / Cloud Engineer**
-Cognizant · Dec 2023 – Present · Hyderabad, India (Truist Bank engagement)
-
-- Built and ran CI/CD pipelines (Jenkins, GitHub Actions) for enterprise banking applications, from build through production deployment.
-- Managed AWS infrastructure (EC2, VPC) and Kubernetes workloads, backed by Terraform IaC for repeatable provisioning.
-- Operated ETL/batch pipeline jobs on Autosys/CA Workload Automation for a banking client's enterprise data warehouse, using Oracle SQL for data validation.
-- Monitored production health with Dynatrace, AWS CloudWatch, and Splunk; resolved incidents via ServiceNow, with CyberArk-managed privileged access.
-- Piloted GitHub Copilot and Amazon Q for AI-assisted scripting and automation inside a regulated banking environment.
+- ✅ AWS Certified Cloud Practitioner
+- ⏳ Certified Kubernetes Administrator (CKA), in progress
 
 ---
 
-### 🚀 Projects
-
-**Banking Platform — AI-Assisted Development Pilot**
-Designed and built a bank management system on Java Spring Boot microservices, then used it as the live proof-of-concept to win client approval for GitHub Copilot and Amazon Q inside the delivery workflow.
-`Java` `Spring Boot` `Microservices` `GitHub Copilot` `Amazon Q`
-
-**Java 8 → Java 17 Migration, AI-Accelerated**
-Modernized a legacy Java 8 codebase to Java 17, using AI coding assistants to accelerate refactoring of deprecated APIs, syntax updates, and dependency upgrades.
-`Java 17` `Spring Boot` `GitHub Copilot` `Amazon Q`
-
-**Incident AI Playbook**
-Built and trained an AI-driven playbook on historical incident and failure data. On a new issue, it outputs exact SOP-style troubleshooting steps and routes the ticket to the owning team automatically.
-`AI/ML` `Incident Management` `Automation` `SOP Design`
-
-**ETL Pipeline Failure Guardrails**
-Wrote shell scripts that catch conditions leading to extract/load failures in production data pipelines before they cause an outage, rather than reacting after the fact.
-`Shell Scripting` `ETL` `Pipeline Reliability`
-
-**Oracle → AWS Data Migration**
-Migrated the full estate of Oracle SQL tables to AWS as part of the platform's cloud transition.
-`Oracle SQL` `AWS` `Data Migration`
-
-**[Kubernetes GitOps Platform — Terraform, Helm, ArgoCD](https://github.com/Jeevankatta/k8s-gitops-platform)**
-- Provisioned a 3-node Kubernetes cluster and 5 platform add-ons using modular Terraform with `for_each` modules and remote state locking; authored a Helm chart with probes, HPA, PodDisruptionBudget and least-privilege RBAC for zero-downtime rolling updates.
-- Implemented pull-based GitOps with ArgoCD and canary releases via Argo Rollouts; deployed Prometheus, Grafana and Alertmanager with 4 PromQL alert rules, and enforced 3 Kyverno admission policies.
-`Terraform` `Kubernetes` `Helm` `ArgoCD` `Argo Rollouts` `Prometheus` `Grafana` `Kyverno`
-
-**[DevSecOps CI/CD Pipeline — GitHub Actions, Trivy, SonarCloud](https://github.com/Jeevankatta/devsecops-pipeline)**
-- Designed a 7-job GitHub Actions pipeline with 4 build-failing security gates (SonarCloud SAST, OWASP Dependency Check, Trivy image scanning, gitleaks) and an ephemeral Kubernetes cluster in CI for end-to-end deployment testing.
-- Reduced container image size ~60% with multi-stage builds; hardened runtime with a non-root user and read-only filesystem, and enforced immutable Git SHA tags with OIDC-based short-lived cloud credentials.
-`GitHub Actions` `Trivy` `SonarCloud` `OWASP Dependency Check` `gitleaks` `Docker` `Kubernetes`
-
----
-
-### 📜 Certifications
-
-- AWS Certified Cloud Practitioner
-
----
-
-### 📫 Contact
-
-[![Email](https://img.shields.io/badge/Email-jeevankatta17%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:jeevankatta17@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-jeevan--katta-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/jeevan-katta-7212b0220)
-
-Hyderabad, India — DevOps & Cloud Engineering
+<p align="center"><sub>Hyderabad, India · Open to DevOps and Cloud roles · <a href="https://jeevankatta.github.io/Jeevankatta/">jeevankatta.github.io/Jeevankatta</a></sub></p>

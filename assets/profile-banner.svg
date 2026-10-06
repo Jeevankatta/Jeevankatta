@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Jeevan Katta, DevOps and Cloud Engineer. I build pipelines that ship safely and keep production calm.">
+<defs>
+  <radialGradient id="a1" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#2ee6a6" stop-opacity=".45"/><stop offset="1" stop-color="#2ee6a6" stop-opacity="0"/></radialGradient>
+  <radialGradient id="a2" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#1d6fff" stop-opacity=".45"/><stop offset="1" stop-color="#1d6fff" stop-opacity="0"/></radialGradient>
+  <linearGradient id="hl" x1="0" x2="1"><stop offset="0" stop-color="#2ee6a6"/><stop offset="1" stop-color="#4cc9f0"/></linearGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity=".07"/></pattern>
+  <clipPath id="r"><rect width="1200" height="360" rx="24"/></clipPath>
+  <style>
+    .t{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+    .m{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+    .st circle.ring{fill:#0f1821;stroke:#ffffff30;stroke-width:2}
+    .st circle.on{fill:#2ee6a6;opacity:0;animation:on 7.5s infinite}
+    .st text.ck{opacity:0;animation:on 7.5s infinite}
+    .s1 *{animation-delay:.4s!important}.s2 *{animation-delay:1.4s!important}.s3 *{animation-delay:2.4s!important}.s4 *{animation-delay:3.4s!important}.s5 *{animation-delay:4.4s!important}
+    @keyframes on{0%{opacity:0}6%,85%{opacity:1}95%,100%{opacity:0}}
+    .flow{stroke-dasharray:6 7;animation:dash 1s linear infinite}
+    @keyframes dash{to{stroke-dashoffset:-13}}
+    .pulse{animation:p 2s infinite}
+    @keyframes p{50%{opacity:.35}}
+  </style>
+</defs>
+<g clip-path="url(#r)">
+  <rect width="1200" height="360" fill="#070b10"/>
+  <circle cx="360" cy="-40" r="300" fill="url(#a1)"/>
+  <circle cx="1160" cy="80" r="320" fill="url(#a2)"/>
+  <circle cx="40" cy="380" r="220" fill="url(#a1)" opacity=".5"/>
+  <rect width="1200" height="360" fill="url(#dots)"/>
+
+  <g transform="translate(64 64)">
+    <rect width="292" height="32" rx="16" fill="#2ee6a6" fill-opacity=".1" stroke="#2ee6a6" stroke-opacity=".35"/>
+    <circle class="pulse" cx="18" cy="16" r="5" fill="#2ee6a6"/>
+    <text x="32" y="21" class="m" font-size="13" fill="#9ff5d3">open to DevOps &amp; Cloud roles</text>
+  </g>
+  <text x="62" y="160" class="t" font-size="58" font-weight="700" fill="#e8eef3" letter-spacing="-1.5">Jeevan Katta</text>
+  <text x="64" y="202" class="t" font-size="24" font-weight="600" fill="url(#hl)">DevOps &amp; Cloud Engineer · Hyderabad, India</text>
+  <text x="64" y="244" class="t" font-size="18" fill="#93a3b3">I build pipelines that ship safely and keep production calm.</text>
+  <g class="m" font-size="13" fill="#a9bccb">
+    <rect x="64" y="276" width="56" height="28" rx="7" fill="#ffffff0a" stroke="#ffffff1a"/><text x="92" y="295" text-anchor="middle">AWS</text>
+    <rect x="128" y="276" width="104" height="28" rx="7" fill="#ffffff0a" stroke="#ffffff1a"/><text x="180" y="295" text-anchor="middle">Kubernetes</text>
+    <rect x="240" y="276" width="96" height="28" rx="7" fill="#ffffff0a" stroke="#ffffff1a"/><text x="288" y="295" text-anchor="middle">Terraform</text>
+    <rect x="344" y="276" width="72" height="28" rx="7" fill="#ffffff0a" stroke="#ffffff1a"/><text x="380" y="295" text-anchor="middle">CI/CD</text>
+    <rect x="424" y="276" width="76" height="28" rx="7" fill="#ffffff0a" stroke="#ffffff1a"/><text x="462" y="295" text-anchor="middle">Python</text>
+  </g>
+
+  <!-- pipeline console -->
+  <g transform="translate(700 70)">
+    <rect width="440" height="224" rx="18" fill="#0f1821" fill-opacity=".92" stroke="#ffffff24"/>
+    <circle cx="24" cy="24" r="5" fill="#ff5f57"/><circle cx="40" cy="24" r="5" fill="#febc2e"/><circle cx="56" cy="24" r="5" fill="#28c840"/>
+    <text x="76" y="28" class="m" font-size="12" fill="#93a3b3">pipeline · k8s-gitops-platform</text>
+    <line x1="0" y1="46" x2="440" y2="46" stroke="#ffffff14"/>
+    <line x1="52" y1="96" x2="388" y2="96" stroke="#2ee6a6" stroke-opacity=".45" stroke-width="2" class="flow"/>
+    <g class="m" font-size="11" fill="#93a3b3" text-anchor="middle">
+      <g class="st s1"><circle class="ring" cx="52" cy="96" r="16"/><circle class="on" cx="52" cy="96" r="16"/><text class="ck" x="52" y="101" font-size="14" fill="#04110b" font-weight="700">✓</text><text x="52" y="132">commit</text></g>
+      <g class="st s2"><circle class="ring" cx="136" cy="96" r="16"/><circle class="on" cx="136" cy="96" r="16"/><text class="ck" x="136" y="101" font-size="14" fill="#04110b" font-weight="700">✓</text><text x="136" y="132">build</text></g>
+      <g class="st s3"><circle class="ring" cx="220" cy="96" r="16"/><circle class="on" cx="220" cy="96" r="16"/><text class="ck" x="220" y="101" font-size="14" fill="#04110b" font-weight="700">✓</text><text x="220" y="132">scan</text></g>
+      <g class="st s4"><circle class="ring" cx="304" cy="96" r="16"/><circle class="on" cx="304" cy="96" r="16"/><text class="ck" x="304" y="101" font-size="14" fill="#04110b" font-weight="700">✓</text><text x="304" y="132">deliver</text></g>
+      <g class="st s5"><circle class="ring" cx="388" cy="96" r="16"/><circle class="on" cx="388" cy="96" r="16"/><text class="ck" x="388" y="101" font-size="14" fill="#04110b" font-weight="700">✓</text><text x="388" y="132">observe</text></g>
+    </g>
+    <rect x="20" y="152" width="400" height="54" rx="10" fill="#060a0e" stroke="#ffffff12"/>
+    <g class="m" font-size="12">
+      <text x="34" y="174" fill="#4cc9f0">✓ trivy <tspan fill="#b8c6d2">0 critical · 0 high</tspan></text>
+      <text x="34" y="194" fill="#4cc9f0">✓ argocd <tspan fill="#b8c6d2">synced · canary 20% → 100%</tspan></text>
+    </g>
+  </g>
+</g>
+<rect x=".5" y=".5" width="1199" height="359" rx="24" fill="none" stroke="#ffffff1a"/>
+</svg>
