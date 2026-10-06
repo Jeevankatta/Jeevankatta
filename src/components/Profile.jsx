@@ -17,7 +17,7 @@ export default function Profile({ path }) {
   return (
     <header className="card">
       <div className="chrome">
-        <span className="path">jeevankatta.com / <b>{path}</b></span>
+        <span className="path">jeevankatta.github.io / <b>{path}</b></span>
         <span className="pill"><i className="dotlive" /> open to offers</span>
       </div>
 

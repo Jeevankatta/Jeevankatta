@@ -6,8 +6,8 @@ export const PROFILE = {
   email: "jeevankatta17@gmail.com",
   github: "https://github.com/Jeevankatta",
   linkedin: "https://www.linkedin.com/in/jeevan-katta-7212b0220",
-  site: "https://jeevankatta.com",
-  resume: "/resume.pdf",
+  site: "https://jeevankatta.github.io/Jeevankatta/",
+  resume: `${import.meta.env.BASE_URL}Katta_Jeevan_Resume.pdf`,
   blurb:
     "Two and a half years keeping banking workloads running on AWS — pipelines, containers, infrastructure as code, and the incident response around all of it. Now building Kubernetes platforms from scratch and looking for the next team to break things with.",
   tags: ["AWS", "Kubernetes", "Terraform", "CI/CD", "Python"],
